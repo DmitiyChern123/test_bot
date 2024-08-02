@@ -21,7 +21,7 @@ namespace ConsoleApp3
     {
 
         Console.WriteLine(  "fwe");
-        bot = new TelegramBotClient("6408970932:AAGR6KYY9OFG_a43iYSyxQXi82t13p-J6u0");
+        bot = new TelegramBotClient("TokenAPI");
 
         bot.StartReceiving(Update, Error);
 
